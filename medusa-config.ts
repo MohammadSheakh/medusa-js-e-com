@@ -21,5 +21,55 @@ module.exports = defineConfig({
     {
       resolve: "./src/modules/blog",
     },
+    {
+      resolve: "./src/modules/brand",
+      //npx medusa db:generate brand
+      // npx medusa db:migrate
+    },
+    // {
+    //   resolve: "./src/modules/cart",
+    // },
+    // {
+    //   resolve: "./src/modules/category",
+    // },
+    // {
+    //   resolve: "./src/modules/collection",
+    // },
+    // {
+    //   resolve: "./src/modules/customer",
+    // },
+    // {
+    //   resolve: "./src/modules/discount",
+    // },
+    // {
+    //   resolve: "./src/modules/fulfillment",
+    // },
+    // {
+    //   resolve: "./src/modules/gateway",
+    // },
+    // {
+    //   resolve: "./src/modules/inventory",
+    // },
+    // {
+    //   resolve: "./src/modules/order",
+    // },
+    // {
+    //   resolve: "./src/modules/product",
+    // },
+    // {
+    //   resolve: "./src/modules/region",
+    // },
+    // {
+    //   resolve: "./src/modules/return",
+    // },
+    // {
+    //   resolve: "./src/modules/shipping",
+    // },
+    // {
+    //   resolve: "./src/modules/store",
+    // },
+    // {
+    //   resolve: "./src/modules/user",
+    // },
   ],
 });
