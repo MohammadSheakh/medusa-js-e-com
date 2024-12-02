@@ -11,7 +11,7 @@ import {
 } from "@medusajs/framework/workflows-sdk";
 import { createBrandStep } from "./steps/create-brand";
 
-type CreateBrandInput = {
+export type CreateBrandInput = {
   name: string;
 };
 
