@@ -23,8 +23,8 @@ module.exports = defineConfig({
     },
     {
       resolve: "./src/modules/brand",
-      //npx medusa db:generate brand
-      // npx medusa db:migrate
+      //command npx medusa db:generate brand
+      //command npx medusa db:migrate
     },
     // {
     //   resolve: "./src/modules/cart",

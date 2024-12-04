@@ -59,7 +59,10 @@ export const POST = async (
   |
   +----------- 
   | @Next  <!-- you'll learn how to extend data models and associate the brand with a product. -->
+  | Since modules are isolated from one another, it's not possible to directly extend a module's
+    data models.
 
+    Instead, you define a link between the modules' data models.
   +----------- 
   | Ex :
  */
